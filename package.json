@@ -1,0 +1,27 @@
+{
+  "name": "fe-spec",
+  "version": "1.0.0",
+  "description": "前端规范",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dumi dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lh632861400/fe-spec.git"
+  },
+  "keywords": [
+    "spec",
+    "fe-spec",
+    "前端规范"
+  ],
+  "author": "lh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lh632861400/fe-spec/issues"
+  },
+  "homepage": "https://github.com/lh632861400/fe-spec#readme",
+  "devDependencies": {
+    "dumi": "^1.0.34"
+  }
+}
