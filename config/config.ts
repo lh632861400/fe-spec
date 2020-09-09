@@ -30,17 +30,10 @@ export default {
   },
   // 单语言配置方式如下
   navs: [
+    null,
     {
       title: 'GitHub',
       path: 'https://github.com/lh632861400/fe-spec',
-    },
-  ],
-  routes: [
-    {
-      path: '/',
-      routes: [
-
-      ],
     },
   ],
 }
