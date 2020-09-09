@@ -1,8 +1,8 @@
 ---
-title: .gitignore文件
+title: .gitignore 文件
 group:
   path: /gitignore
-  title: .gitignore文件
+  title: .gitignore 文件
   order: 5
 ---
 
