@@ -1,17 +1,16 @@
 ---
 title: 代码规范
-nav:
-  title: 前端规范
-  path: /guide
 group:
   path: /html
   title: html规范
   order: 0
 ---
 
-## 代码规范
--------------------
-### DOCTYPE 声明
+# 代码规范
+
+-------------------------
+
+## DOCTYPE 声明
 一个DOCTYPE必须包含以下部分，并严格按照顺序出现：
 ```
 A string that is an ASCII case-insensitive match for the string “<!DOCTYPE”.
@@ -27,7 +26,8 @@ A “>” (U+003E) character.
 一个或多个空白字符
 一个编码为 U+003E 的字符 “>”
 ```
-团队约定
+## 团队约定
+### DOCTYPE 声明
 HTML文件必须加上 DOCTYPE 声明，并统一使用 HTML5 的文档声明：
 `<!DOCTYPE html>`
 更多关于 DOCTYPE声明 `#The DOCTYPE`
@@ -57,6 +57,7 @@ W3C Language tags in HTML and XML
 网页头部的声明应该是用 lang=”zh” 还是 lang=”zh-cn”？
 
 ### CHARSET
+```
 Because the character sets in ISO-8859 was limited in size, and not compatible in multilingual environments, the Unicode Consortium developed the Unicode Standard.
 The Unicode Standard covers (almost) all the characters, punctuations, and symbols in the world.
 Unicode enables processing, storage, and transport of text independent of platform and language.
@@ -65,35 +66,42 @@ The default character encoding in HTML-5 is UTF-8.
 Unicode 标准覆盖了（几乎）所有的字符、标点符号和符号。
 Unicode 使文本的处理、存储和运输，独立于平台和语言。
 HTML-5 中默认的字符编码是 UTF-8
+```
 参阅 HTML Unicode (UTF-8) Reference
 
-### 团队约定
 一般情况下统一使用 “UTF-8” 编码
+```
 <meta charset="UTF-8">
+```
 由于历史原因，有些业务可能会使用 “GBK” 编码
+```
 <meta charset="GBK">
+```
+
 请尽量统一写成标准的 “UTF-8”，不要写成 “utf-8” 或 “utf8” 或 “UTF8”。根据 IETF对UTF-8的定义，其编码标准的写法是 “UTF-8”；而 UTF8 或 utf8 的写法只是出现在某些编程系统中，如 .NET framework 的类 System.Text.Encoding 中的一个属性名就叫 UTF8。
-更多关于
-UTF-8写法: UTF8 or UTF-8?
+更多关于UTF-8写法: UTF8 or UTF-8?
+```
 GBK：Application of IANA Charset Registration for GBK
 Charset ：character-encoding-declaration
-元素及标签闭合
-HTML元素共有以下5种：
-空元素：area、base、br、col、command、embed、hr、img、input、keygen、link、meta、param、source、track、wbr
-原始文本元素：script、style
-RCDATA元素：textarea、title
-外来元素：来自MathML命名空间和SVG命名空间的元素。
-常规元素：其他HTML允许的元素都称为常规元素。
-元素标签的闭合应遵循以下原则：
+```
 
+### 元素及标签闭合
+HTML元素共有以下5种：
+- 空元素：area、base、br、col、command、embed、hr、img、input、keygen、link、meta、param、source、track、wbr
+- 原始文本元素：script、style
+- RCDATA元素：textarea、title
+- 外来元素：来自MathML命名空间和SVG命名空间的元素。
+- 常规元素：其他HTML允许的元素都称为常规元素。
+元素标签的闭合应遵循以下原则：
+```
 Tags are used to delimit the start and end of elements in the markup. Raw text, escapable raw text, and normal elements have a start tag to indicate where they begin, and an end tag to indicate where they end. The start and end tags of certain normal elements can be omitted, as described below in the section on optional tags. Those that cannot be omitted must not be omitted. Void elements only have a start tag; end tags must not be specified for void elements. Foreign elements must either have a start tag and an end tag, or a start tag that is marked as self-closing, in which case they must not have an end tag.
 
 原始文本元素、RCDATA元素以及常规元素都有一个开始标签来表示开始，一个结束标签来表示结束。
 某些元素的开始和结束标签是可以省略的，如果规定标签不能被省略，那么就绝对不能省略它。
 空元素只有一个开始标签，且不能为空元素设置结束标签。
 外来元素可以有一个开始标签和配对的结束标签，或者只有一个自闭合的开始标签，且后者情况下该元素不能有结束标签。
+```
 
-### 团队约定
 为了能让浏览器更好的解析代码以及能让代码具有更好的可读性，有如下约定：
 所有具有开始标签和结束标签的元素都要写上起止标签，某些允许省略开始标签或和束标签的元素亦都要写上。
 空元素标签都不加 “/” 字符

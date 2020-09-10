@@ -45,15 +45,15 @@ group:
 {}#jdc {}.jdc div{}
 ```
 
-###### 代码缩进
+### 代码缩进
 统一使用二个空格进行代码缩进，使得各编辑器表现一致（各编辑器有相关配置）
 `.jdc {    width: 100%;    height: 100%;}`
 
-###### 分号
+### 分号
 每个属性声明末尾都要加分号；
 `.jdc {    width: 100%;    height: 100%;}`
 
-###### 代码易读性
+### 代码易读性
 左括号与类名之间一个空格，冒号与属性值之间一个空格
 
 ```
@@ -63,7 +63,7 @@ group:
 .jdc{     width:100%;}
 ```
 
-###### 逗号分隔的取值，逗号之后一个空格
+###逗号分隔的取值，逗号之后一个空格
 ```
 推荐：
 .jdc {    box-shadow: 1px 1px 1px #333, 2px 2px 2px #ccc;}
@@ -71,7 +71,7 @@ group:
 .jdc {    box-shadow: 1px 1px 1px #333,2px 2px 2px #ccc;}
 ```
 
-###### 为单个css选择器或新申明开启新行
+### 为单个css选择器或新申明开启新行
 ```
 推荐：
 .jdc, .jdc_logo, .jdc_hd {    color: #ff0;}.nav{    color: #fff;}
@@ -79,7 +79,7 @@ group:
 .jdc,jdc_logo,.jdc_hd {    color: #ff0;}.nav{    color: #fff;}
 ```
 
-###### 颜色值 rgb() rgba() hsl() hsla() rect() 中不需有空格，且取值不要带有不必要的 0
+### 颜色值 rgb() rgba() hsl() hsla() rect() 中不需有空格，且取值不要带有不必要的 0
 ```
 推荐：
 .jdc {    color: rgba(255,255,255,.5);}
@@ -87,7 +87,7 @@ group:
 .jdc {    color: rgba( 255, 255, 255, 0.5 );}
 ```
 
-###### 属性值十六进制数值能用简写的尽量用简写
+### 属性值十六进制数值能用简写的尽量用简写
 ```
 推荐：
 .jdc {    color: #fff;}
@@ -95,7 +95,7 @@ group:
 .jdc {    color: #ffffff;}
 ```
 
-###### 不要为 0 指明单位
+### 不要为 0 指明单位
 ```
 推荐：
 .jdc {    margin: 0 10px;}
@@ -103,12 +103,12 @@ group:
 .jdc {    margin: 0px 10px;}
 ```
 
-###### css属性值需要用到引号时，统一使用单引号
+### css属性值需要用到引号时，统一使用单引号
 ```
 /* 推荐 */.jdc { 	font-family: 'Hiragino Sans GB';}/* 不推荐 */.jdc { 	font-family: "Hiragino Sans GB";}
 ```
 
-###### 属性书写顺序
+### 属性书写顺序
 建议遵循以下顺序：
 - 布局定位属性：display / position / float / clear / visibility / overflow
 - 自身属性：width / height / margin / padding / border / background
@@ -118,7 +118,7 @@ group:
 
 [mozilla官方属性顺序推荐](https://www.mozilla.org/css/base/content.css)
 
-###### CSS3浏览器私有前缀写法
+### CSS3浏览器私有前缀写法
 CSS3 浏览器私有前缀在前，标准前缀在后
 ```
 .jdc {    -webkit-border-radius: 10px;    -moz-border-radius: 10px;    -o-border-radius: 10px;    -ms-border-radius: 10px;    border-radius: 10px;}

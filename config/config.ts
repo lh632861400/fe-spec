@@ -20,7 +20,9 @@ export default {
   base: '/',
   description: 'aa',
   dynamicImport: false,
-  exportStatic: {},
+  exportStatic: {
+    htmlSuffix: true,
+  },
   mode: 'site',
   publicPath: '/',
   ssr: false,
