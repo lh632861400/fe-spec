@@ -7,7 +7,7 @@ nav:
 group:
   path: /html
   title: html规范
-  order: 0
+  order: 1
 ---
 
 HTML代码大小写
