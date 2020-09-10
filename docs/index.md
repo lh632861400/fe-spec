@@ -1,5 +1,12 @@
 ---
 title: 概览
+nav:
+  title: 概览
+  path: /
+group:
+  path: /
+  title: 概览
+  order: 0
 ---
 
 欢迎使用前端代码规范，使用过程中如碰到问题，请到[Github](https://github.com/lh632861400/fe-spec)进行提问。

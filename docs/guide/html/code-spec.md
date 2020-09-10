@@ -2,6 +2,7 @@
 title: 代码规范
 nav:
   title: 规范
+  path: /
 group:
   path: /html
   title: html规范
