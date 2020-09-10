@@ -1,8 +1,8 @@
 ---
 title: 代码规范
 nav:
-  title: 规范
-  path: /
+  title: 前端规范
+  path: /guide
 group:
   path: /html
   title: html规范
