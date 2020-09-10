@@ -14,7 +14,10 @@ HTML标签名、类名、标签属性和大部分属性值统一用小写
 ```<div class="demo"></div>```
 
 不推荐：
-`<div class="DEMO"></div>	<DIV CLASS="DEMO"></DIV>`
+```
+<div class="DEMO"></div>	
+<DIV CLASS="DEMO"></DIV>
+```
 
 HTML文本、CDATA、JavaScript、meta标签某些属性等内容可大小写混合
 
