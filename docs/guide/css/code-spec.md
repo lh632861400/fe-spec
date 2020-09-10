@@ -1,9 +1,9 @@
 ---
 title: 代码规范
+order: 1
 group:
   path: /css
   title: css规范
-  order: 0
 ---
 
 代码规范
