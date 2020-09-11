@@ -1,11 +1,11 @@
 ---
-title: 概览
+title: fe-spec
 hero:
   title: fe-spec
   desc: 前端一些常用规范
   actions:
     - text: 快速开始
-      link: /guide
+      link: ./guide/introduce
 features:
   - icon: /img/html.png
     title: HTML规范
