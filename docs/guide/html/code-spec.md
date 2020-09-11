@@ -3,7 +3,7 @@ title: 代码规范
 group:
   path: /html
   title: html规范
-  order: 0
+  order: 1
 ---
 
 # 代码规范
@@ -38,12 +38,14 @@ Lang属性的取值应该遵循互联网工程任务组–IETF（The Internet En
 推荐使用属性值 cmn-Hans-CN（简体, 中国大陆），但是考虑浏览器和操作系统的兼容性，目前仍然使用 zh-CN 属性值
 `<html lang="zh-CN">`
 更多地区语言参考：
+
 zh-SG 中文 (简体, 新加坡)   对应 cmn-Hans-SG 普通话 (简体, 新加坡)
 zh-HK 中文 (繁体, 香港)     对应 cmn-Hant-HK 普通话 (繁体, 香港)
 zh-MO 中文 (繁体, 澳门)     对应 cmn-Hant-MO 普通话 (繁体, 澳门)
 zh-TW 中文 (繁体, 台湾)     对应 cmn-Hant-TW 普通话 (繁体, 台湾)
 
 已废弃不推荐使用的 Languages Tags
+
 以下写法已于 2009 年废弃，请勿使用（cmn、wuu、yue、gan 等已由 2005 年的 extlang 升级到 2009 年的 language）：
 zh-cmn, zh-cmn-Hans, zh-cmn-Hant, zh-wuu, zh-yue, zh-gan
 
@@ -105,7 +107,8 @@ Tags are used to delimit the start and end of elements in the markup. Raw text, 
 为了能让浏览器更好的解析代码以及能让代码具有更好的可读性，有如下约定：
 所有具有开始标签和结束标签的元素都要写上起止标签，某些允许省略开始标签或和束标签的元素亦都要写上。
 空元素标签都不加 “/” 字符
-推荐：
+
+_推荐：_
 ```code
 <div>    
   <h1>我是h1标题</h1>    
@@ -113,7 +116,7 @@ Tags are used to delimit the start and end of elements in the markup. Raw text, 
 </div>	
 <br>
 ```
-不推荐：
+_不推荐：_
 ```code
 <div>    
   <h1>我是h1标题</h1>    

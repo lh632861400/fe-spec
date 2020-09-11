@@ -17,7 +17,10 @@ group:
 ```
 ###### 一种是展开格式（Expanded）
 ```
-.jdc{    display: block;    width: 50px;}
+.jdc{    
+  display: block;    
+  width: 50px;
+}
 ```
 
 ## 团队约定
@@ -47,7 +50,8 @@ group:
 
 ### 代码缩进
 统一使用二个空格进行代码缩进，使得各编辑器表现一致（各编辑器有相关配置）
-`.jdc {    width: 100%;    height: 100%;}`
+`.jdc {    
+width: 100%;    height: 100%;}`
 
 ### 分号
 每个属性声明末尾都要加分号；
@@ -58,54 +62,95 @@ group:
 
 ```
 推荐：
-.jdc {     width: 100%; }
+.jdc {     
+  width: 100%;
+}
+
 不推荐：
-.jdc{     width:100%;}
+.jdc{     
+  width:100%;
+}
 ```
 
-###逗号分隔的取值，逗号之后一个空格
+### 逗号分隔的取值，逗号之后一个空格
 ```
 推荐：
-.jdc {    box-shadow: 1px 1px 1px #333, 2px 2px 2px #ccc;}
+.jdc {    
+  box-shadow: 1px 1px 1px #333, 2px 2px 2px #ccc;
+}
+
 不推荐：
-.jdc {    box-shadow: 1px 1px 1px #333,2px 2px 2px #ccc;}
+.jdc {    
+  box-shadow: 1px 1px 1px #333,2px 2px 2px #ccc;
+}
 ```
 
 ### 为单个css选择器或新申明开启新行
 ```
 推荐：
-.jdc, .jdc_logo, .jdc_hd {    color: #ff0;}.nav{    color: #fff;}
+.jdc, 
+.jdc_logo, 
+.jdc_hd {    
+  color: #ff0;
+}
+.nav{    
+  color: #fff;
+}
 不推荐：
-.jdc,jdc_logo,.jdc_hd {    color: #ff0;}.nav{    color: #fff;}
+.jdc, jdc_logo, .jdc_hd {    
+  color: #ff0;
+}
+.nav{    
+  color: #fff;
+}
 ```
 
 ### 颜色值 rgb() rgba() hsl() hsla() rect() 中不需有空格，且取值不要带有不必要的 0
 ```
 推荐：
-.jdc {    color: rgba(255,255,255,.5);}
+.jdc {    
+  color: rgba(255,255,255,.5);
+}
 不推荐：
-.jdc {    color: rgba( 255, 255, 255, 0.5 );}
+.jdc {   
+   color: rgba( 255, 255, 255, 0.5 );
+}
 ```
 
 ### 属性值十六进制数值能用简写的尽量用简写
 ```
 推荐：
-.jdc {    color: #fff;}
+.jdc {   
+   color: #fff;
+}
 不推荐：
-.jdc {    color: #ffffff;}
+.jdc {    
+  color: #ffffff;
+}
 ```
 
 ### 不要为 0 指明单位
 ```
 推荐：
-.jdc {    margin: 0 10px;}
+.jdc {    
+  margin: 0 10px;
+}
 不推荐：
-.jdc {    margin: 0px 10px;}
+.jdc {    
+  margin: 0px 10px;
+}
 ```
 
 ### css属性值需要用到引号时，统一使用单引号
 ```
-/* 推荐 */.jdc { 	font-family: 'Hiragino Sans GB';}/* 不推荐 */.jdc { 	font-family: "Hiragino Sans GB";}
+/* 推荐 */
+.jdc { 	
+  font-family: 'Hiragino Sans GB';
+}
+/* 不推荐 */
+.jdc { 	
+  font-family: "Hiragino Sans GB";
+}
 ```
 
 ### 属性书写顺序

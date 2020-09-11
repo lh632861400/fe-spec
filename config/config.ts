@@ -19,10 +19,10 @@ const menus = [
 export default {
   base: '/',
   description: 'aa',
-  dynamicImport: false,
-  exportStatic: {
-    htmlSuffix: true,
+  dynamicImport: {
+
   },
+  exportStatic: false,
   mode: 'site',
   publicPath: '/',
   ssr: false,

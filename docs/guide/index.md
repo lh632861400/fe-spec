@@ -2,10 +2,9 @@
 title: 概览
 nav:
   title: 前端规范
-  path: /guide
 group:
-  path: /
-  title: 概览
+  path: /introduce
+  title: 快速开始
   order: 0
 ---
 

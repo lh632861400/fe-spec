@@ -1,8 +1,6 @@
 
 ---
 title: 代码风格
-nav:
-  title: 前端规范
 group:
   path: /html
   title: html规范

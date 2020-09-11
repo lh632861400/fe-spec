@@ -1,8 +1,8 @@
 ---
 title: .gitignore 文件
 group:
-  path: /gitignore
-  title: .gitignore 文件
+  path: /git
+  title: git 协同与提交规范  
   order: 5
 ---
 
