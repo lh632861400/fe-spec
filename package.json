@@ -4,7 +4,8 @@
   "description": "前端规范",
   "main": "index.js",
   "scripts": {
-    "dev": "dumi dev"
+    "dev": "dumi dev",
+    "build": "cross-env UMI_ENV=prod dumi build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/lh632861400/fe-spec#readme",
   "devDependencies": {
+    "cross-env": "^7.0.2",
     "dumi": "^1.0.34"
   }
 }
