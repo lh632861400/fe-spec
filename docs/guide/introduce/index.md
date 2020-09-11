@@ -3,7 +3,6 @@ title: 概览
 nav:
   title: 前端规范
 group:
-  path: /introduce
   title: 快速开始
   order: 0
 ---

@@ -22,7 +22,9 @@ export default {
   dynamicImport: {
 
   },
-  exportStatic: false,
+  exportStatic: {
+    htmlSuffix: true,
+  },
   mode: 'site',
   publicPath: '/',
   ssr: false,
