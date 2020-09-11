@@ -16,13 +16,14 @@ Comments begin with the characters /* and end with the characters */. They may o
 /*Comment Text*/
 ```
 
-团队约定
+## 团队约定
 ### 单行注释
 注释内容第一个字符和最后一个字符都是一个空格字符，单独占一行，行与行之间相隔一行
 ```
 推荐：
 /* Comment Text */
 .jdc{}
+
 /* Comment Text */
 .jdc{}
 ```
