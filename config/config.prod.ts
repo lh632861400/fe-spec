@@ -1,5 +1,7 @@
 
 export default {
   base: '/fe-spec',
-  publicPath: '/fe'
+
+  // umi 强制要求publicPath必须以`./`结尾
+  publicPath: '/fe-spec/./',
 }
