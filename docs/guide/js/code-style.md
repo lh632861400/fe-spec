@@ -7,7 +7,21 @@ group:
 编码规范
 ----------------
 
+## 配套工具
+
+eslint-config-ali：集团 JS 规约配套的 ESLint 规则包
+集团 JS 规约站点版：规约站点版提供了更好的可读性，可以查看规则命中的真实问题排行榜，对规则点赞点踩、发表评论
+喜码：集团规约浏览、落地、度量一站式平台
+
+## 参考资料
+Airbnb JavaScript Style Guide
+Google JavaScript Style Guide
+SonarJS rules
+ESLint rules
+
 统一团队的编码规范，有助于代码的维护。本章是传统意义上的 `Style Guideline`，目的是统一一些相对主观化的代码风格。
+
+## 团队约定
 
 ### 单行代码块
 在单行代码块中使用`空格`
