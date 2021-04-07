@@ -24,6 +24,6 @@
   "homepage": "https://github.com/lh632861400/fe-spec#readme",
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "dumi": "^1.0.34"
+    "dumi": "^1.1.12"
   }
 }
