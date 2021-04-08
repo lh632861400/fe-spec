@@ -7,22 +7,22 @@ hero:
     - text: 快速开始
       link: ./fe-spec/guide/introduce.html
 features:
-  - icon: /img/html.png
+  - icon: /fe-spec/img/html.png
     title: HTML规范
     desc: ~
-  - icon: /img/css.png
+  - icon: /fe-spec/img/css.png
     title: CSS规范
     desc: ~
-  - icon: /img/js.png
+  - icon: /fe-spec/img/js.png
     title: JavaScript规范
     desc: ~
-  - icon: /img/less.png
+  - icon: /fe-spec/img/less.png
     title: LESS规范
     desc: ~
-  - icon: /img/react.png
+  - icon: /fe-spec/img/react.png
     title: React规范
     desc: ~
-  - icon: /img/git.png
+  - icon: /fe-spec/img/git.png
     title: GIT规范
     desc: ~
 ---
