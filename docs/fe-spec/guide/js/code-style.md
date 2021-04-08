@@ -8,6 +8,7 @@ group:
 
 编码规范
 ----------------
+代码风格遵循airbnb<a href="https://github.com/airbnb/javascript" target="_blank">代码风格</a>
 
 ## 配套工具
 
