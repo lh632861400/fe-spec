@@ -3,7 +3,6 @@ title: git 提交规范
 group:
   path: /git
   title: git 协同与提交规范    
-  order: 4
 ---
 
 ## Git 协同与提交规范
