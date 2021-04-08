@@ -160,6 +160,7 @@ sketch
 
 ### dumi ###
 .umi
+.umi-production
 site
 dist
 dist2
