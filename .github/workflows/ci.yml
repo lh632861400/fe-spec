@@ -24,5 +24,5 @@ jobs:
           branch: master
           folder: dist2
           repository-name: lh632861400/lh632861400.github.io # 这是我的 github page 仓库
-          target-folder: fe-spec # 打包的文件将放到静态服务器 fe-spec 目录下
+          target-folder: . # 打包的文件将放到静态服务器 fe-spec 目录下
 
