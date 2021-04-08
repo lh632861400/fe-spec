@@ -9,23 +9,25 @@ group:
 -------------------
 
 测试内容图应该写上表明图片尺寸的占位图，可以用线上占位图生成服务，如：
-```
+```gs
 http://placeholder.qiniudn.com/300x200
 ```
 
 ### HTML 中图片引入不需添加 width、height 属性，alt 属性应该写上
 推荐：
-```
+```html
 <img src="" alt="" >
 ```
 
 不推荐：
-```
+```html
 <img src="" width="" height="" >
 ```
 
 ### CSS 中图片引入不需要引号
+```css
 .jdc {    background-image: url(icon.png);}
+```
 
 ### CSS Sprites VS Data URIs
 CSS Sprites特点
