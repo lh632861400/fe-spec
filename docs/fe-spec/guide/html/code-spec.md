@@ -1,9 +1,9 @@
 ---
 title: 代码规范
 group:
-  path: /html
   title: html规范
   order: 1
+  
 ---
 
 # 代码规范

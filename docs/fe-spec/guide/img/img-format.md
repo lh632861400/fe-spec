@@ -1,10 +1,9 @@
-
 ---
 title: 图片格式
 group:
-  path: /img
   title: 图片规范
-  order: 3
+  order: 4
+  
 ---
 
 图片格式

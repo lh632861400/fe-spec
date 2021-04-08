@@ -1,7 +1,9 @@
 ---
 title: 代码风格
 group:
-  order: 2
+  title: js规范
+  order: 3
+  
 ---
 
 编码规范

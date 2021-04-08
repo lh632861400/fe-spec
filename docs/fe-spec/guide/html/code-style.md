@@ -2,9 +2,8 @@
 ---
 title: 代码风格
 group:
-  path: /html
   title: html规范
-  order: 1
+  
 ---
 
 # 代码风格

@@ -2,7 +2,6 @@
 title: 注释规范
 order: 2
 group:
-  path: /css
   title: css规范
 ---
 

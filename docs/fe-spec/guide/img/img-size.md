@@ -1,10 +1,8 @@
-
 ---
 title: 图片大小
 group:
-  path: /img
   title: 图片规范
-  order: 3
+  
 ---
 
 图片大小
