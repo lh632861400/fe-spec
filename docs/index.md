@@ -5,7 +5,7 @@ hero:
   desc: 前端一些常用规范
   actions:
     - text: 快速开始
-      link: ./fe-spec/guide/introduce.html
+      link: ./fe-spec/.html
 features:
   - icon: /fe-spec/img/html.png
     title: HTML规范
