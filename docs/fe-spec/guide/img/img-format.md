@@ -2,7 +2,7 @@
 title: 图片格式
 group:
   title: 图片规范
-  order: 4
+  order: 5
   
 ---
 
